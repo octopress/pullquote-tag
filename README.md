@@ -43,7 +43,7 @@ is why it is preferred to use a CSS only technique for styling pull-quotes.
 
 This will output the following:
 
-```
+```html
 <p><span data-pullquote="pullquotes are merely visual in presentation and should not appear twice in the text."></span>
 When writing long-form posts, I find it helpful to include pull-quotes, which help
 those scanning a post discern whether or not a post is helpful. It is important to 
