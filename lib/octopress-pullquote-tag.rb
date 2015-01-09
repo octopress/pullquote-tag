@@ -1,6 +1,6 @@
 require "octopress-pullquote-tag/version"
 require "octopress-pullquote-tag/utils"
-require "rubypants"
+require "rubypants-unicode"
 
 module Octopress
   module Tags
