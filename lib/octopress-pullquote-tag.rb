@@ -44,7 +44,7 @@ if defined? Octopress::Docs
     description: "Elegant pullquotes for Jekyll site site",
     path:        File.expand_path(File.join(File.dirname(__FILE__), "../")),
     source_url:  "https://github.com/octopress/quote-tag",
-    version:     Octopress::Tags::Quote::VERSION
+    version:     Octopress::Tags::PullQuote::VERSION
   })
 end
 
