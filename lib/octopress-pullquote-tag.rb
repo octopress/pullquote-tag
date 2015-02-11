@@ -43,8 +43,8 @@ if defined? Octopress::Docs
     gem:         "octopress-pullquote-tag",
     description: "Elegant pullquotes for Jekyll site site",
     path:        File.expand_path(File.join(File.dirname(__FILE__), "../")),
-    source_url:  "https://github.com/octopress/quote-tag",
-    version:     Octopress::Tags::Quote::VERSION
+    source_url:  "https://github.com/octopress/pullquote-tag",
+    version:     Octopress::Tags::PullQuote::VERSION
   })
 end
 
