@@ -20,7 +20,7 @@ module Octopress
 
             quote = RubyPants.new($1).to_html
 
-            alignment = @markup.scan(/(left|right|center)/i).first || 'right'
+            alignment = @markup.scan(/left|right|center/i).first || 'right'
             classnames = @markup.sub(/left|right|center/i, '').strip
 
             output = "<span class='pullquote-#{alignment} #{classnames}' data-pullquote='#{quote}'></span>#{output}"
